@@ -68,6 +68,11 @@ nav ul li sup {
     box-shadow: 5px 1px 10px 0px #00000028;
 }
 
+.home-img-mx{
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
 /* .container{
     height: 1000vh;
 } */
