@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    
 }
 
 header {
@@ -73,6 +74,23 @@ nav ul li sup {
     margin: 30px auto 0 auto;
 }
 
-/* .container{
-    height: 1000vh;
-} */
+.container{
+    position: relative;
+}
+
+.sidebar-close{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    right: 0;
+}
+
+.sidebar-open{
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 80px;
+    right: -609px;
+    transition: all 0.3s ease-in;
+}
